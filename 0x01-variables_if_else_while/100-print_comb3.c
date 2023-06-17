@@ -11,15 +11,17 @@ int main(void)
 	for (a = 48; a < 57; a++)
 	{
 		for (b = a + 1; b <= 57; b++)
+		{
 			if (b != a)
-			{
 				putchar(a);
-				putchar(b);
+			putchar(b);
+		}
 		if (a == 56 && b == 57)
-				continue;
-				putchar(',');
-				putchar(' ');
-			}
+		{
+			continue;
+			putchar(',');
+			putchar(' ');
+		}
 	}
 	putchar('\n');
 	return (0);
