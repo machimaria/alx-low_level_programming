@@ -15,12 +15,12 @@ int main(void)
 			if (b != a)
 				putchar(a);
 			putchar(b);
+			putchar(',');
+			putchar(' ');
 		}
 		if (a == 56 && b == 57)
 		{
 			continue;
-			putchar(',');
-			putchar(' ');
 		}
 	}
 	putchar('\n');
