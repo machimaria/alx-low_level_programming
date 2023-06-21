@@ -1,6 +1,7 @@
 #include "main.h"
+#include <unistd.h>
 /**
- * main - Entry point
+ * print_alphabet  - Entry point
  * Description: print_alphabet in lowercase
  * Return: always 0
  */
