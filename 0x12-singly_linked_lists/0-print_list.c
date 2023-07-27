@@ -6,7 +6,6 @@
  * print_list - print the elements in a list.
  * a blank line
  * @h: the list
- * @list_t: the constant
  * Description: print the elements of one list
  * section header: the header of this function is lists.h
  * Return: this return the num of the elements in the list
