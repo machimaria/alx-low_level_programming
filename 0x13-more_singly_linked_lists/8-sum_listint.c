@@ -16,5 +16,5 @@ add += tail->n;
 tail = tail->next;
 }
 
-return (sum);
+return (add);
 }
